@@ -1,0 +1,188 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    resize: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resultContainer {
+    margin-top: 20px;
+}
+
+#sentimentResult {
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 18px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Basic Styling for the Page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+/* Container for all elements */
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+}
+
+/* Heading */
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Instruction text */
+p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Textarea and button container */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Textarea styling */
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    resize: none;
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Sentiment result section */
+#resultContainer {
+    margin-top: 20px;
+}
+
+#sentimentResult {
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Center the content inside resultContainer */
+#resultContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Center the sentiment result text */
+#sentimentResult {
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
