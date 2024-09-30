@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="senti.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sentiment Analysis</h1>
+        <p>Enter a sentence and get the sentiment as Positive, Neutral, or Negative</p>
+        
+        <div class="input-container">
+            <textarea id="sentenceInput" placeholder="Type your sentence here..."></textarea>
+            <button onclick="analyzeSentiment()">Analyze</button>
+        </div>
+
+        <div id="resultContainer">
+            <h2>Sentiment Result: <span id="sentimentResult">N/A</span></h2>
+            <img id="sentimentImage" src="" alt="Sentiment Emoji" style="display:none; width: 100px; height: 100px;"/>
+        </div>
+
+        <p id="error-message" style="color: red; display: none;">Please enter the correct text.</p>
+    </div>
+    <script src="senti.js"></script>
+</body>
+</html>
